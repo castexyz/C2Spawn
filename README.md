@@ -1,6 +1,7 @@
 ## What is this?
+A Red Team C2 Automation using Terraform/nebula/caddy/linode
 
-A dirty Windows port of this project: https://github.com/maliciousgroup/C2_Automation with minor fixes and improvements for stuff that was not working for me :)
+In short, it is a dirty Windows port of this project: https://github.com/maliciousgroup/C2_Automation with minor fixes and improvements for stuff that was not working for me :)
 
 To know more you can check the amazing blog post here: https://blog.malicious.group/automating-c2-infrastructure-with-terraform-nebula-caddy-and-cobalt-strike
 
