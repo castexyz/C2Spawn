@@ -4,7 +4,7 @@ resource "linode_instance" "team-server" {
     region = "nl-ams"
     type = "g6-nanode-1"
     authorized_keys = [linode_sshkey.ssh_key.ssh_key]
-    root_pass = "Di0Porcone!"
+    root_pass = random_string.random.result
 
     swap_size = 256
     private_ip = false
