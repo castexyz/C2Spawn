@@ -10,7 +10,7 @@ To know more you can check the amazing blog post here: https://blog.malicious.gr
 - Open the project with Pycharm and create a virtual env
   - pip install pyyaml
   - pip install python-terraform
-- Download Terraform.exe and place into C:\dev\C2Spawn\.venv\Scripts
+- Download Terraform.exe and place into C:\dev\C2Spawn\\.venv\Scripts
 - Add your linode token and domain name into the file variables.tf
 - Add linode DNS servers in your domain control panel
 - Add your own cobaltstrike.zip server files into C:\dev\C2Spawn\templates\files
