@@ -8,6 +8,8 @@ To know more you can check the amazing blog post here: https://blog.malicious.gr
 ## What do I need to do?
 - Download the project into C:\dev\
 - Open the project with Pycharm and create a virtual env
+  - pip install pyyaml
+  - pip install python-terraform
 - Download Terraform.exe and place into C:\dev\C2Spawn\.venv\Scripts
 - Add your linode token and domain name into the file variables.tf
 - Add linode DNS servers in your domain control panel
